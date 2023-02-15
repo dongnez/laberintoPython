@@ -1,0 +1,3 @@
+
+class ElemetoMapa():
+    pass

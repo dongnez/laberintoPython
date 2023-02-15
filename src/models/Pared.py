@@ -1,0 +1,3 @@
+
+class Pared():
+    pass
