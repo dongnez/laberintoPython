@@ -1,4 +1,5 @@
 
+from abc import abstractmethod
 from Laberinto import Laberinto
 from Habitacion import Habitacion
 from Puerta import Puerta
@@ -7,6 +8,10 @@ from Pared import Pared
 class Juego:
     def __init__(self) -> None:
         self.laberinto = None
+
+    @abstractmethod
+    def fabricJuego(self):
+        pass
 
     def  laberinto2Habitaciones(self):
         self.laberinto = Laberinto()

@@ -1,5 +1,7 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 
-class Laberinto:
+from Juego import Juego
+
+class JuegoBombas(Juego):
     pass

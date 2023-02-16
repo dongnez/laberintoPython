@@ -1,9 +1,9 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 
-from Decorator import Decorator
+from Pared import Pared
 
-class Bomba(Decorator):
+class ParedBomba(Pared):
     def __init__(self):
         self.activa = None
 
